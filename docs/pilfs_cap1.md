@@ -10,8 +10,8 @@ __Motivos__
 
 * Acredito que esteja entre os sistemas mais difundidos para esta plataforma e é baseado no debian;
 * O projeto PiLFS também usou o Raspbian;
-* Facilidades na configuração do teclado;
-* Facilidades na configuração da rede;
+* Configuração facilitada do mapeamento do teclado;
+* Configuração automática da rede;
 
 ## Como construir o sistema LFS
 
