@@ -2,7 +2,17 @@
 
 Todos os pacotes listados abaixo devem possuir no **mínimo** as versões sugeridas. As vezes também é informada uma versão máxima.
 
-<br />
+#### Nem todos os pacotes listados abaixo estão instalados no Raspbian
+
+Instalando os pacotes faltantes
+
+```
+apt-get update
+apt-get install bison gawk m4 texinfo
+
+```
+
+#### Requerimentos do Sistema host
 
 > Bash-3.2 (/bin/sh should be a symbolic or hard link to bash)
 
