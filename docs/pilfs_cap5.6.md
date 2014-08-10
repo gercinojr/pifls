@@ -1,4 +1,4 @@
-# Capítulo 5.6 - Linux3.13.3 API Headers
+# Capítulo 5.6 - Linux3.13.2 API Headers
 
 
 Tudo ocorreu bem e não hoveram erros reportados.
