@@ -7,3 +7,5 @@ O projeto PILFS oferece o *script* **ch6-build.sh** para automatizar o trabalho 
 Para este capítulo (cap.6) vou fazer algumas modificações no script **ch6-build.sh** para que se adeque melhor a minha realidade (**ch6-build-modificado.sh**).
 
 A saída do script **ch6-build-modificado.sh** está no arquivo **ch6-build-modificado.log**.
+
+> Obs.: No livro do LFS diz que nesta etapa os teste são importantíssimos. Infelizmente não realizei os testes por um único motivo: **O tempo**. O processo de compilação dos pacotes feitos no Raspberry Pi é muito lento, levaria semanas para se concluir esta estapa e infelizmente não disponho desse tempo. 
