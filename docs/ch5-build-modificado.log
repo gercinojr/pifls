@@ -1,0 +1,45 @@
+# 5.20. File-5.18
+local script time: 00:05:40
+
+# 5.21. Findutils-4.4.2
+local script time: 00:12:17
+
+# 5.22. Gawk-4.1.1
+local script time: 00:18:02
+
+# 5.23. Gettext-0.18.3.2
+local script time: 00:46:58
+
+# 5.24. Grep-2.18
+local script time: 00:13:50
+
+# 5.25. Gzip-1.6
+local script time: 00:09:21
+
+# 5.26. M4-1.4.17
+local script time: 00:12:20
+
+# 5.27. Make-4.0
+local script time: 00:06:22
+
+# 5.28. Patch-2.7.1
+local script time: 00:10:39
+
+# 5.29. Perl-5.18.2
+local script time: 02:01:53
+
+# 5.30. Sed-4.2.2
+local script time: 00:09:26
+
+# 5.31. Tar-1.27.1
+local script time: 00:24:12
+
+# 5.32. Texinfo-5.2
+local script time: 00:15:34
+
+# 5.33. Util-linux-2.24.2
+local script time: 00:50:51
+
+# 5.34. Xz-5.0.5
+local script time: 00:15:06
+
