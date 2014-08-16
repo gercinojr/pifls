@@ -4,8 +4,7 @@ depois do todo o processo do capítulo 5, fiz backup da pasta tools.
 
 ```
 # cd $LFS
-# tar -cf tools.tar tools
-# gzip -9 tools.tar
+# tar -cpf tools.tar tools
 
 ```
 
@@ -13,14 +12,15 @@ montei o flashdrive e copie o backup para ele.
 
 ```
 # mount /dev/sda1 /mnt
-# cp tools.tar.gz /mnt
+# cp tools.tar /mnt
 # sync
 
 ```
 
-Desmontei a partição e segui para o capítulo 6 do LFS.
+Desmontei a partição, apaguei o arquivo criado e segui para o capítulo 6 do LFS.
 
 ```
 # umount /dev/sda1
+# rm tools.tar
 
 ```
