@@ -40,11 +40,14 @@ A aplicação computacional visa estabelecer a comunicação **bidirecional** en
 
 #### Metodologia
 
-> **Sistema LFS**  
+**Sistema LFS**  
 Instalar o sistema operacional [Raspbian] (http://www.raspbian.org/) no cartão de memória e seguir os passos dos projetos LFS e PiLFS.
 
-> **Aplicação Computacional**  
-Codificar um *sketch* para o Arduino utilizando o aplicativo Arduino IDE e gravá-lo no Arduino. Este *sketch* tem por objetivo fazer uma **sinaleira** com os leds. A medida que a sinaleira muda de estado o Arduino informa ao Raspberry seu novo estado. Este último imprime no console o novo estado. Existirá um botão que (re)inicializará todo o processo. 
+**Aplicação Computacional**  
+
+O Arduino tem por objetivo controlar uma **sinaleira** feita com os leds. A medida que a sinaleira muda de estado, a uma certa velociade inicial, ele vai informando ao Raspberry Pi, atravez do GPIO, seu estado atual. O Raspberry Pi imprime no console o estado informado. 
+
+Existirão algumas possibilidades de interação: Um botão que (re)inicializará todo o processo. A cada inicio se abrirá um prompt para receber uma nova velocidade de transição entre os estados. 
 
 ## Referências (ordenado por importância)
 
