@@ -12,27 +12,39 @@ Mas esta disciplina sem uma parte prática fica deficiente. Então o professor *
 
 Com a ajuda do projeto LFS podemos desenvolver uma distribuição GNU/Linux totalmente a partir dos fontes dos programas. Com isso o aluno absorve vários conceitos desta plataforma.
 
-O projeto LFS é originalmente desenvolvido em um hardware **x86**, mas os seus conceitos podem ser aplicados em outras plataformas.
+O projeto LFS é originalmente desenvolvido em um hardware **x86**, mas os seus conceitos podem ser aplicados em outras arquiteturas.
 
-Eu optei por desenvolver para a plataforma **ARM**, utilizando o **Raspberry Pi** como suporte. Por isso também estou utilizando, paralelamente ao projeto LSF, um outro projeto complementar: [PiLFS](http://www.intestinate.com/pilfs/), que tem por base o LFS mas adiciona orientações específicas para a plataforma Raspberry Pi.
+Eu optei por desenvolver para à arquitetura **ARM**, utilizando o **Raspberry Pi** como hardware. Por isso também estou utilizando, paralelamente ao projeto LSF, um outro projeto complementar: [PiLFS](http://www.intestinate.com/pilfs/), que tem por base o LFS mas adiciona orientações específicas para a plataforma Raspberry Pi.
 
-## Objetivos
+## Objetivos Gerais
 
 1. Desenvolver uma distribuição GNU/Linux baseada no projeto [LFS 7.5](http://www.linuxfromscratch.org/).
-2. Criar uma aplicação computacional que funcione sobre esta distribuição. 
+2. Desenvolver uma aplicação computacional que funcione sobre o projeto LFS desenvolvido. 
 
 ## Desenvolvimento
 
+A aplicação computacional visa estabelecer a comunicação **bidirecional** entre um computador **Raspberry Pi**, com LFS como sistema operacional, e uma plataforma de prototipagem **Arduino**.
+
 #### Material
 
-* Placa Raspberry Pi Model B - 512MiB
+* Placa Raspberry Pi Model B - 512MiB - Rev.2
+* Plataforma de prototipagem Arduino modelo UNO
 * Notebook com slot de cartão de memória, com Ubuntu 14.04 instalado
 * Cartão de memória SD 8GB da marca Kingston
-* Cabos para conexões
+* 3 leds (verde, amarelo e vermelho)
+* 3 resistores de 220ohm
+* 1 resistor de 10kohm
+* 1 push button
+* CI CD4050BE
+* Cabos diversos para conexões
 
 #### Metodologia
 
-Foi instalado o sistema operacional [Raspbian] (http://www.raspbian.org/) no cartão de memória e foi seguido os passos dos projetos LFS e PiLFS.
+> **Sistema LFS**  
+Instalar o sistema operacional [Raspbian] (http://www.raspbian.org/) no cartão de memória e seguir os passos dos projetos LFS e PiLFS.
+
+> **Aplicação Computacional**  
+Codificar um *sketch* para o Arduino utilizando o aplicativo Arduino IDE e gravá-lo no Arduino. Este *sketch* tem por objetivo fazer uma **sinaleira** com os leds. A medida que a sinaleira muda de estado o Arduino informa ao Raspberry seu novo estado. Este último imprime no console o novo estado. Existirá um botão que (re)inicializará todo o processo. 
 
 ## Referências (ordenado por importância)
 
