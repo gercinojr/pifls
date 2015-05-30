@@ -41,7 +41,6 @@ Devemos apagar o link simbólico...
 
 ```
 # rm /bin/sh
-# ln -s bash /bin/sh
 
 ```
 e criar um novo
